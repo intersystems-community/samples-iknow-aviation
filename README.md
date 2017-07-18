@@ -1,5 +1,12 @@
 # samples-iknow-aviation
 InterSystems iKnow and DeepSee sample solution based on events involving aircraft as registered by the National Transportation Safety Board.
+# Installation
+Import the latest [release](https://github.com/intersystems-community/samples-iknow-aviation/releases) in any namespace.
+Run in terminal
+```
+d ##class(Aviation.Utils).Setup()
+```
+
 This project contains two demos:
 # DeepSee Aviation Demo
 The DeepSee Aviation demo demonstrates how the iKnow featues embedded in DeepSee can be used to combine analysis of structured and unstructured data. It can be configured by calling the SetupCube class method in this class. Check the "Using unstructured data in cubes" chapter in the "Defining DeepSee models" guide.
